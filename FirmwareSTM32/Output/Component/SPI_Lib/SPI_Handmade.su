@@ -1,0 +1,3 @@
+Component/SPI_Lib/SPI_Handmade.c:7:13:SPIInit	32	static
+Component/SPI_Lib/SPI_Handmade.c:144:13:SPITransmit	4	static
+Component/SPI_Lib/SPI_Handmade.c:157:13:SPIReceive	8	static

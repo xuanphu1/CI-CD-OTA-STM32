@@ -1,0 +1,5 @@
+Component/I2C_Lib/I2C_Handmade.c:5:6:initI2C	32	static
+Component/I2C_Lib/I2C_Handmade.c:55:6:masterSendStart	8	static
+Component/I2C_Lib/I2C_Handmade.c:62:6:masterSendAddress	8	static
+Component/I2C_Lib/I2C_Handmade.c:70:6:masterSendData	0	static
+Component/I2C_Lib/I2C_Handmade.c:78:6:masterSendStop	0	static

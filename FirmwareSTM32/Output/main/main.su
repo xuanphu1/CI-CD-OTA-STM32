@@ -1,0 +1,7 @@
+main/main.c:4:6:SysTick_Handler	0	static
+main/main.c:35:6:SSD1306_WriteCommand	8	static
+main/main.c:43:6:SSD1306_SetCursor	16	static
+main/main.c:49:6:SSD1306_DrawCharA	24	static
+main/main.c:64:6:SSD1306_Init	8	static
+main/main.c:96:6:SSD1306_Clear	16	static
+main/main.c:107:5:main	8	static

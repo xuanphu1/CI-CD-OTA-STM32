@@ -1,0 +1,48 @@
+name: Build and Deploy STM32 Firmware
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'FirmwareSTM32/**'
+      - 'docker/**'
+      - '.github/workflows/**'
+      - 'Makefile'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'FirmwareSTM32/**'
+      - 'docker/**'
+      - '.github/workflows/**'
+      - 'Makefile'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: |
+          docker build -t stm32-builder docker/
+
+      - name: Build firmware (.hex)
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}/FirmwareSTM32:/FirmwareSTM32 \
+            stm32-builder make -C /FirmwareSTM32
+
+      - name: List build output
+        run: |
+          ls -lh FirmwareSTM32/Output
+
+      # (Tuỳ chọn) Đính kèm artifact để download về máy
+      - name: Upload firmware hex as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: STM32_RUN.hex
+          path: FirmwareSTM32/Output/STM32_RUN.hex

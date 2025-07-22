@@ -1,0 +1,7 @@
+Component/Uart_Lib/UART_Handmade.c:12:14:UARTInit	32	static
+Component/Uart_Lib/UART_Handmade.c:124:14:TransmitDataUART	0	static
+Component/Uart_Lib/UART_Handmade.c:147:14:ReceiveDataUART	0	static
+Component/Uart_Lib/UART_Handmade.c:172:14:EnableInterrupt_RX_UARTx	8	static
+Component/Uart_Lib/UART_Handmade.c:185:6:interruptEnable	0	static
+Component/Uart_Lib/UART_Handmade.c:190:6:interruptDisable	0	static
+Component/Uart_Lib/UART_Handmade.c:195:14:ReceiveDataUART_IT	4	static

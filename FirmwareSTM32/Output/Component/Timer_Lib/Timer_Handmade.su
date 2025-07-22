@@ -1,0 +1,3 @@
+Component/Timer_Lib/Timer_Handmade.c:36:13:InitTimer	16	static
+Component/Timer_Lib/Timer_Handmade.c:126:13:StartPWMNormal	0	static
+Component/Timer_Lib/Timer_Handmade.c:172:13:SetDutyCycle	4	static

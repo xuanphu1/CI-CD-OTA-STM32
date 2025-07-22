@@ -1,0 +1,11 @@
+Component/RCC_Lib/RCC_Handmade.c:8:12:Enable_Clock_RCC_APB2	0	static
+Component/RCC_Lib/RCC_Handmade.c:21:12:Enable_Clock_RCC_APB1	0	static
+Component/RCC_Lib/RCC_Handmade.c:30:12:Enable_Clock_RCC_AHB	0	static
+Component/RCC_Lib/RCC_Handmade.c:39:12:Select_Prescaler_RCC	8	static
+Component/RCC_Lib/RCC_Handmade.c:77:12:Select_Sources_Clock	0	static
+Component/RCC_Lib/RCC_Handmade.c:93:12:Select_Frequency_CLK	8	static
+Component/RCC_Lib/RCC_Handmade.c:154:12:init_RCC	8	static
+Component/RCC_Lib/RCC_Handmade.c:180:18:getFrequencyAHB	0	static
+Component/RCC_Lib/RCC_Handmade.c:185:18:getFrequencyAPB1	0	static
+Component/RCC_Lib/RCC_Handmade.c:190:18:getFrequencyAPB2	0	static
+Component/RCC_Lib/RCC_Handmade.c:195:18:getFrequencyRCC	0	static

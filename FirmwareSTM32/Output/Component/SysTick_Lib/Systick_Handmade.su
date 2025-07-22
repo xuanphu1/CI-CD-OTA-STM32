@@ -1,0 +1,4 @@
+Component/SysTick_Lib/Systick_Handmade.c:8:6:SysTick_ms_inc	0	static
+Component/SysTick_Lib/Systick_Handmade.c:17:17:SysTick_Init	16	static
+Component/SysTick_Lib/Systick_Handmade.c:64:17:Delay_SysTick	4	static
+Component/SysTick_Lib/Systick_Handmade.c:92:17:SysTick_GetCounter	0	static

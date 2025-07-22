@@ -1,0 +1,8 @@
+Component/GPIO_Lib/GPIO_Handmade.c:61:14:InitGPIO	16	static
+Component/GPIO_Lib/GPIO_Handmade.c:96:10:ReadPin	0	static
+Component/GPIO_Lib/GPIO_Handmade.c:109:14:WritePin	8	static
+Component/GPIO_Lib/GPIO_Handmade.c:136:14:TogglePin	4	static
+Component/GPIO_Lib/GPIO_Handmade.c:156:14:WriteMultiPins	4	static
+Component/GPIO_Lib/GPIO_Handmade.c:175:14:ReadMultiPins	28	static
+Component/GPIO_Lib/GPIO_Handmade.c:205:6:ON_Led_Hardware	0	static
+Component/GPIO_Lib/GPIO_Handmade.c:212:6:OFF_Led_Hardware	0	static
